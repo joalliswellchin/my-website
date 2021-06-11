@@ -1,11 +1,24 @@
-import { Link } from "react-router-dom";
+import "./Home.css"
+import Header from "../Component/Header";
 
 const Home = () => {
     return (
-        <div className="Home">Hello World!
-            <Link to={`/track`}>
-                <button className="button">Track</button>
-            </Link>
+        <div className="Home">
+            <Header />
+            <div className="heading1">This is Joel's website!</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam quam, semper a neque quis, vestibulum faucibus justo. Etiam vel libero nec mauris venenatis ultricies ac ac mi. Vivamus vehicula ultrices consectetur. Proin gravida facilisis justo. Donec nunc sapien, elementum eu bibendum in, porta eu tortor. Donec ut est est. Etiam vitae est nec lorem maximus commodo pretium eget purus. Etiam tellus leo, efficitur non risus at, condimentum ullamcorper enim. Mauris rutrum pellentesque nunc, vel tempor massa dapibus in. Vivamus lacus nibh, aliquet vel urna ut, vestibulum consequat dolor. Phasellus sit amet nisl rhoncus, vehicula lacus rutrum, hendrerit leo. Vestibulum congue mi sit amet lectus vulputate, non ornare urna maximus. </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam quam, semper a neque quis, vestibulum faucibus justo. Etiam vel libero nec mauris venenatis ultricies ac ac mi. Vivamus vehicula ultrices consectetur. Proin gravida facilisis justo. Donec nunc sapien, elementum eu bibendum in, porta eu tortor. Donec ut est est. Etiam vitae est nec lorem maximus commodo pretium eget purus. Etiam tellus leo, efficitur non risus at, condimentum ullamcorper enim. Mauris rutrum pellentesque nunc, vel tempor massa dapibus in. Vivamus lacus nibh, aliquet vel urna ut, vestibulum consequat dolor. Phasellus sit amet nisl rhoncus, vehicula lacus rutrum, hendrerit leo. Vestibulum congue mi sit amet lectus vulputate, non ornare urna maximus. </p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quam quam, semper a neque quis, vestibulum faucibus justo. Etiam vel libero nec mauris venenatis ultricies ac ac mi. Vivamus vehicula ultrices consectetur. Proin gravida facilisis justo. Donec nunc sapien, elementum eu bibendum in, porta eu tortor. Donec ut est est. Etiam vitae est nec lorem maximus commodo pretium eget purus. Etiam tellus leo, efficitur non risus at, condimentum ullamcorper enim. Mauris rutrum pellentesque nunc, vel tempor massa dapibus in. Vivamus lacus nibh, aliquet vel urna ut, vestibulum consequat dolor. Phasellus sit amet nisl rhoncus, vehicula lacus rutrum, hendrerit leo. Vestibulum congue mi sit amet lectus vulputate, non ornare urna maximus. </p>
+
+            <p>Cras elementum, dolor sit amet scelerisque fermentum, urna neque egestas sapien, tristique mattis sapien urna at lacus. Mauris sit amet tincidunt lorem. Etiam quis luctus ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse egestas pharetra leo ut mollis. Proin posuere lacus id ante condimentum mollis. Integer venenatis mauris nec cursus cursus. Fusce at egestas nisl, ut ullamcorper massa. Nulla facilisi. Donec hendrerit ligula in elit dignissim imperdiet.</p>
+
+            <p>Quisque in auctor orci, nec finibus quam. Morbi pulvinar pretium congue. Curabitur pellentesque libero in dapibus pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam nulla ante, pellentesque sit amet enim in, porta vulputate purus. Aenean bibendum dignissim tellus, sit amet pharetra sem facilisis blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam ut metus id ex fringilla tempor id eget elit. Maecenas vitae scelerisque erat. Proin placerat odio gravida metus tristique feugiat. Cras in neque quis nisl iaculis sodales id vel lorem. Sed condimentum malesuada risus nec rutrum. Nulla nec orci et tortor vehicula efficitur. Mauris ultrices luctus vehicula. Curabitur non aliquam tortor. Ut tincidunt, metus non suscipit blandit, turpis ex lacinia ex, ut iaculis quam ex id est.</p>
+
+            <p>Nulla at venenatis mauris. Integer aliquam risus lacus, non eleifend nibh posuere id. Fusce in risus et nulla accumsan aliquam eu ut felis. Praesent lacinia a diam a pretium. Maecenas tincidunt ligula ac nunc eleifend ornare nec in sapien. Quisque facilisis convallis quam sit amet cursus. In consequat dignissim lobortis. Phasellus eleifend mi at sapien fermentum gravida. Duis ultricies tempor molestie. Integer luctus augue vitae varius rhoncus. Phasellus convallis eros sodales molestie rhoncus. Mauris ornare nec ex ut fermentum. Fusce sed dignissim nunc. Nunc in enim vel lorem tempor condimentum. Fusce non elit id erat finibus vulputate. Curabitur et nulla efficitur, convallis leo sed, condimentum nisi.</p>
+
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum id augue nunc. Sed feugiat tincidunt nunc ac scelerisque. Morbi eu sapien elementum, luctus diam ut, porta sem. Etiam efficitur viverra justo. Morbi urna nunc, aliquam et dapibus ac, tempus et est. Mauris faucibus et elit vitae vestibulum. Maecenas varius congue accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam rutrum, est ac volutpat finibus, elit mi volutpat neque, id vehicula felis nibh a tellus. Etiam sit amet facilisis dui. Pellentesque interdum velit non fermentum commodo.</p>
         </div>
     )
 }

@@ -1,0 +1,48 @@
+.Sitemap, div {
+  height:0px;
+}
+
+/* 
+  All prefix with .bm is from react-burger-menu
+  Check them out at https://github.com/negomi/react-burger-menu
+  */
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 22px;
+}
+
+.bm-burger-bars {
+  background: #bdbcbc;
+}
+
+/* there is internal shading here */
+.bm-burger-bars-hover{
+  background: #bdbcbc;
+}
+
+.bm-cross-button {
+  display: none;
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #0891ec;
+  right: 5px;
+}
+
+.bm-menu {
+  background: #373a47;
+  font-size: 18px;
+}
+
+.bm-item {
+  display: inline-block;
+  color: #bdc3c7;
+  padding: 20px 0px 0px 15px;
+  font-family: sans-serif, "Stencil";
+  text-decoration: unset;
+}
