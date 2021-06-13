@@ -2,7 +2,6 @@ import React from "react";
 import "./Topnav.css";
 
 import { Button } from '@material-ui/core';
-// import { makeStyles } from '@material-ui/core/styles';
 import { ButtonTheme } from "../Themes/theme";
 
 // class Topnav extends React.Component {
