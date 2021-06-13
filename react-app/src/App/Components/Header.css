@@ -1,6 +1,7 @@
 .Header {
-    padding-bottom: 75px;
-    background-color: rgb(0, 60, 255);
+    padding-top: 13px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 0, 0);
     width: 100%;
 }
 
@@ -16,7 +17,6 @@
 
 .titlename {
     height: 0px;
-    padding: 20px;
 
     text-align: center;
     font-size: 25px;

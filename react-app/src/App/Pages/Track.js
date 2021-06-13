@@ -1,4 +1,4 @@
-import Header from "../Component/Header";
+import Header from "../Components/Header";
 
 const Track = () => {
     return (
