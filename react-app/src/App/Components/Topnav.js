@@ -13,8 +13,8 @@ export default function Topnav() {
     return (
         <div className="topnav">
             <Button id="home" className={classes.header} href="/">Home</Button>
-            <Button id="track" className={classes.header} href="/track">Track</Button>
-            <Button id="contact" className={classes.header} href="/">Contact</Button>
+            <Button id="tech" className={classes.header} href="/tech">Tech</Button>
+            <Button id="contact" className={classes.header} href="/contact">Contact</Button>
         </div>
     )
 }

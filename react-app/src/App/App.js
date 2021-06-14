@@ -4,7 +4,8 @@
 
 import "./App.css";
 import Home from "./Pages/Home";
-import Track from "./Pages/Track";
+import Tech from "./Pages/Tech";
+import Contact from "./Pages/Contact";
 
 // Router
 import { BrowserRouter, Route } from "react-router-dom";
@@ -19,7 +20,8 @@ const App = () => {
         <BreakpointProvider>
             <div className="App">
                 <Route exact path="/" component={Home} />
-                <Route exact path="/track" component={Track} />
+                <Route exact path="/tech" component={Tech} />
+                <Route exact path="/contact" component={Contact} />
             </div>
         </BreakpointProvider>
         </BrowserRouter>
