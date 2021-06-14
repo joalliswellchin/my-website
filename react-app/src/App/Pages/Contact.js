@@ -7,7 +7,6 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import EmailIcon from '@material-ui/icons/Email';
 
 const Contact = () => {
     return (
@@ -37,11 +36,6 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/joel-chin-a4a129139/">
                     <span className="linkedin">
                         <LinkedInIcon />
-                    </span>
-                </a>
-                <a href="/contact">
-                    <span className="email" title="coming soon!">
-                        <EmailIcon />
                     </span>
                 </a>
             </div>
