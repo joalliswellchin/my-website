@@ -15,13 +15,13 @@ class Header extends React.Component {
                 <Breakpoint medium up>
                     <Topnav/>
                     <div className="titlename">
-                        Hello!
+                        Joalliswellchin
                     </div>
                 </Breakpoint>
                 <Breakpoint small down>
                     <BurgerMenu/>
                     <div className="titlename">
-                        Hello!
+                        Joalliswellchin
                     </div>
                 </Breakpoint>
             </div>
