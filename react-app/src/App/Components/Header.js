@@ -2,7 +2,7 @@ import React from "react";
 import BurgerMenu from "./BurgerMenu";
 import "./Header.css";
 
-import  { Breakpoint } from 'react-socks';
+import { Breakpoint } from 'react-socks';
 import Topnav from "./Topnav";
 
 
@@ -10,22 +10,22 @@ class Header extends React.Component {
 
     render() {
         return (
-        <div className="Header">
-            <div className="burgermenu">
+            <div className="Header">
                 <Breakpoint medium up>
-                    <Topnav/>
+                    <div className="topnav">
+                        <Topnav />
+                    </div>
                     <div className="titlename">
-                        Joalliswellchin
+                            Joalliswellchin
                     </div>
                 </Breakpoint>
                 <Breakpoint small down>
-                    <BurgerMenu/>
-                    <div className="titlename">
+                    <BurgerMenu />
+                    <div className="burgermenu">
                         Joalliswellchin
                     </div>
                 </Breakpoint>
             </div>
-        </div>
         )
     }
 }

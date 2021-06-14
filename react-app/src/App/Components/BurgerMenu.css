@@ -1,4 +1,4 @@
-.BurgerMenu, div {
+.BurgerMenu, .breakpoint__small-down {
   margin: 0px;
   height: 0px;
   padding: 0px;
