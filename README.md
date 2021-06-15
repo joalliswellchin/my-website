@@ -37,5 +37,9 @@ git pull
 cd react-app
 npm i
 npm run build
-gsutil rsync -r gs://www.joalliswellchin.net build
+gsutil rsync -r gs://bucketname build
 ```
+
+# How to fix the "No resource found issue"
+This is caused by react router only having index as the root, and thus routing itself.
+Solution is to rewrite all to 
