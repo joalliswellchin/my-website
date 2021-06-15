@@ -42,4 +42,6 @@ gsutil rsync -r gs://bucketname build
 
 # How to fix the "No resource found issue"
 This is caused by react router only having index as the root, and thus routing itself.
-Solution is to rewrite all to 
+Solution is to rewrite all uri path (/*) to /index
+At DNS level or at load balancer level.
+For more information: https://render.com/docs/deploy-create-react-app 
