@@ -1,10 +1,51 @@
-.Tech .caption1 {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
+.Tech {
+    height: 100%;
+}
+
+.xfer {
     text-align: center;
     color: #000;
     font-size: 25px;
     font-family: 'Chakra Petch', sans-serif;
+    height: 100%;
+    display: inline !important;
+}
+
+.xfer1 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #04AA6D !important;
+    box-sizing: border-box;
+}
+
+.xfer2 {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ffe600 !important;
+}
+
+.xfer1:hover {
+    width: 100%;
+    transition: 0.5s;
+    background-color: #00633f !important;
+    z-index:+1;
+}
+
+.xfer2:hover {
+    left: 0;
+    width: 100%;
+    transition: 0.5s;
+    background-color: #a79600 !important;
+    z-index:+1;
 }
