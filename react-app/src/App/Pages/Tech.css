@@ -3,7 +3,6 @@
 }
 
 .xfer {
-    text-align: center;
     color: #000;
     font-size: 25px;
     font-family: 'Chakra Petch', sans-serif;
@@ -45,6 +44,45 @@
 .xfer2:hover {
     left: 0;
     width: 100%;
+    transition: 0.5s;
+    background-color: #a79600 !important;
+    z-index:+1;
+}
+
+.xfer1-small {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #04AA6D !important;
+    box-sizing: border-box;
+}
+
+.xfer2-small {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    height: 50%;
+    border: none;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ffe600 !important;
+}
+
+.xfer1-small:hover {
+    height: 90%;
+    transition: 0.5s;
+    background-color: #00633f !important;
+    z-index:+1;
+}
+
+.xfer2-small:hover {
+    top: 63px; /*header is 13px (padding-top) + 50px (padding-bottom)*/
+    height: 100%;
     transition: 0.5s;
     background-color: #a79600 !important;
     z-index:+1;

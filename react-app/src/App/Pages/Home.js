@@ -1,5 +1,6 @@
 import "./Home.css";
 import Header from "../Components/Header";
+import { Breakpoint } from 'react-socks';
 
 const Home = () => {
     return (
@@ -9,9 +10,21 @@ const Home = () => {
             </div>
             <div className="bgimg1">
                 <div className="caption1">
-                    <span className="border">
-                        Welcome to Joel's website!
-                    </span>
+                    <Breakpoint medium up>
+                        <span className="border">
+                            Welcome to Joel's website!
+                        </span>
+                    </Breakpoint>
+                    <Breakpoint small down>
+                        <div className="border2">
+                            <span>
+                                Welcome to Joel's </span>
+                        </div>
+                        <div className="border2">
+                            <span>
+                                website!</span>
+                        </div>
+                    </Breakpoint>
                 </div>
             </div>
             <div className="bgimg2">

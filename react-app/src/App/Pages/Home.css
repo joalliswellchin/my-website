@@ -31,6 +31,24 @@
     font-family: 'Stint Ultra Condensed', cursive;
 }
 
+.Home .bgimg1 .caption1 .border2{
+    color: #ffffff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+
+.Home .bgimg1 .caption1 .border2 span{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
 .Home .bgimg2 {
     /* Create the parallax scrolling effect */
     background-image: url("../../static/wallpapers/IMG_20201116_113808.jpg");
