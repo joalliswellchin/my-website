@@ -5,6 +5,8 @@
 import "./App.css";
 import Home from "./Pages/Home";
 import Tech from "./Pages/Tech";
+import Track from "./Pages/Track";
+import Progress from "./Pages/Project";
 import Contact from "./Pages/Contact";
 
 // Router
@@ -20,7 +22,11 @@ const App = () => {
         <BreakpointProvider>
             <div className="App">
                 <Route exact path="/" component={Home} />
+
                 <Route exact path="/tech" component={Tech} />
+                <Route exact path="/tech/track" component={Track} />
+                <Route exact path="/tech/project" component={Progress} />
+                
                 <Route exact path="/contact" component={Contact} />
             </div>
         </BreakpointProvider>
