@@ -36,7 +36,7 @@
 
 .xfer1:hover {
     width: 100%;
-    transition: 0.5s;
+    transition: 1s;
     background-color: #00633f !important;
     z-index:+1;
 }
@@ -44,7 +44,7 @@
 .xfer2:hover {
     left: 0;
     width: 100%;
-    transition: 0.5s;
+    transition: 1s;
     background-color: #a79600 !important;
     z-index:+1;
 }
@@ -75,7 +75,7 @@
 
 .xfer1-small:hover {
     height: 100%;
-    transition: 0.5s;
+    transition: 1s;
     background-color: #00633f !important;
     z-index:+1;
 }
@@ -83,7 +83,7 @@
 .xfer2-small:hover {
     top: 63px; /*header is 13px (padding-top) + 50px (padding-bottom)*/
     height: 100%;
-    transition: 0.5s;
+    transition: 1s;
     background-color: #a79600 !important;
     z-index:+1;
 }
