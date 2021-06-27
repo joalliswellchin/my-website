@@ -1,0 +1,19 @@
+.WorkInProgress {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.MuiSvgIcon-root{
+    font-size: 100px !important;
+}
+
+.wip-h {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.wip-p {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+}
