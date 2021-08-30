@@ -4,7 +4,7 @@
 
 .Home .bgimg1 {
     /* Create the parallax scrolling effect */
-    background-image: url("../../static/wallpapers/IMG_20200925_200448.jpg");
+    background-image: url("../../static/wallpapers/IMG-20210425-WA0001.jpg");
     position: relative;
     min-height: 100% !important;
     background-attachment: fixed;
@@ -51,7 +51,7 @@
 
 .Home .bgimg2 {
     /* Create the parallax scrolling effect */
-    background-image: url("../../static/wallpapers/IMG_20201116_113808.jpg");
+    background-image: url("../../static/wallpapers/IMG_20201116_113819.jpg");
     position: relative;
     min-height: 100% !important;
     background-attachment: fixed;
@@ -70,7 +70,7 @@
 
 .Home .bgimg3 {
     /* Create the parallax scrolling effect */
-    background-image: url("../../static/wallpapers/IMG_20201216_170030.jpg");
+    background-image: url("../../static/wallpapers/IMG_20190516_174951.jpg");
     position: relative;
     min-height: 100% !important;
     background-attachment: fixed;
@@ -87,7 +87,18 @@
     text-align: center;
 }
 
-.Home .bgimg1 .caption4 {
+.Home .bgimg4 {
+    /* Create the parallax scrolling effect */
+    background-image: url("../../static/wallpapers/IMG_20210425_104015.jpg");
+    position: relative;
+    min-height: 100% !important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home .bgimg4 .caption4 {
     background-color:#6beeff;
     color: #fdff83;
     font-size: 36px;

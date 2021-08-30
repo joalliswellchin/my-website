@@ -43,7 +43,7 @@ const Home = () => {
                     Hello
                 </div>
             </div>
-            <div className="bgimg1">
+            <div className="bgimg4">
                 <div className="caption4 title">
                     What do I enjoy
                 </div>
