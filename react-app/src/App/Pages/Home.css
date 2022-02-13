@@ -22,11 +22,16 @@
     color: #000;
 }
 
-.Home .bgimg1 .caption1 span.border {
+.Home .bgimg1 .caption1 .border{
+    color: #ffffff;
+    padding: 18px;
+}
+
+.Home .bgimg1 .caption1 .border span{
     background-color: #111111;
     color: #ffffff;
     padding: 18px;
-    font-size: 25px;
+    font-size: 36px;
     letter-spacing: 12px;
     font-family: 'Stint Ultra Condensed', cursive;
 }
@@ -34,18 +39,14 @@
 .Home .bgimg1 .caption1 .border2{
     color: #ffffff;
     padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-    font-family: 'Stint Ultra Condensed', cursive;
 }
-
 
 .Home .bgimg1 .caption1 .border2 span{
     background-color: #111111;
     color: #ffffff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 7px;
     font-family: 'Stint Ultra Condensed', cursive;
 }
 
@@ -60,12 +61,24 @@
     background-size: cover;
 }
 
-.Home .bgimg2 .caption2 {
+.Home .bgimg2 .caption2 .paraMU{
     background-color:#ffffff;
     color: #97572b;
     font-size: 36px;
     font-family: 'Big Shoulders Stencil Display', cursive;
     text-align: center;
+    white-space: pre-wrap;
+}
+
+.Home .bgimg2 .caption2 .paraSD{
+    background-color:#ffffff;
+    color: #97572b;
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+    white-space: pre-wrap;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Home .bgimg3 {
@@ -79,11 +92,19 @@
     background-size: cover;
 }
 
-.Home .bgimg3 .caption3 {
-    background-color:#8888ff;
-    color: #111111;
+.Home .bgimg3 .caption3 .paraMU {
+    background-color:#ffffff;
+    color: #97572b;
     font-size: 36px;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+}
+
+.Home .bgimg3 .caption3 .paraSD {
+    background-color:#ffffff;
+    color: #97572b;
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
     text-align: center;
 }
 
@@ -96,12 +117,4 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.Home .bgimg4 .caption4 {
-    background-color:#6beeff;
-    color: #fdff83;
-    font-size: 36px;
-    font-family: 'Chakra Petch', sans-serif;
-    text-align: center;
 }
