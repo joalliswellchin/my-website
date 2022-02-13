@@ -1,0 +1,19 @@
+.paraMU{
+    background-color:#ffffff;
+    color: #97572b;
+    font-size: 36px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.paraSD{
+    background-color:#ffffff;
+    color: #97572b;
+    font-size: 20px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+    white-space: pre-wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -1,7 +1,6 @@
 import "./Home.css";
 import Header from "../Components/Header";
 import Welcome from "../Contents/Welcome";
-import { Breakpoint } from 'react-socks';
 import WhoAmI from "../Contents/WhoAmI";
 import MyMotto from "../Contents/MyMotto";
 

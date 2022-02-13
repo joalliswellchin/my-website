@@ -1,4 +1,5 @@
 import { Breakpoint } from 'react-socks';
+import './Welcome.css';
 
 const Welcome = () => {
     return (

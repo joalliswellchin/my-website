@@ -1,15 +1,16 @@
 import { Breakpoint } from 'react-socks';
+import './MyMotto.css'
 
 const MyMotto = () => {
     return (
         <div>
             <Breakpoint medium up>
-                <div className="paraMU">
+                <div className="MyMotto paraMU">
                     <Info/>
                 </div>
             </Breakpoint>
             <Breakpoint small down>
-                <div className='paraSD'>
+                <div className='MyMotto paraSD'>
                     <Info/>
                 </div>
             </Breakpoint>

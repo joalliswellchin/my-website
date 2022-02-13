@@ -1,15 +1,16 @@
 import { Breakpoint } from 'react-socks';
+import './WhoAmI.css'
 
 const WhoAmI = () => {
     return (
         <div>
             <Breakpoint medium up>
-                <div className="paraMU">
+                <div className="WhoAmI paraMU">
                     <Info/>
                 </div>
             </Breakpoint>
             <Breakpoint small down>
-                <div className='paraSD'>
+                <div className='WhoAmI paraSD'>
                     <Info/>
                 </div>
             </Breakpoint>

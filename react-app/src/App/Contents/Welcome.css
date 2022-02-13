@@ -1,0 +1,27 @@
+.border{
+    color: #ffffff;
+    padding: 18px;
+}
+
+.border span{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 18px;
+    font-size: 36px;
+    letter-spacing: 12px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.border2{
+    color: #ffffff;
+    padding: 18px;
+}
+
+.border2 span{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 8px;
+    font-size: 15px;
+    letter-spacing: 7px;
+    font-family: 'Stint Ultra Condensed', cursive;
+}
